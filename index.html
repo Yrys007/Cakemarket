@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeMarket</title>
+    <link rel="stylesheet" href="hello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="body">
+            
+        <div class="first-page">
+      
+           
+               
+         
+        
+        
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#aboutus">About us</a>
+                <a href="#menu_pricing">Menu & Pricing</a>
+                <a href="#teammembers">Team Members</a>
+                <a href="#getintouch">Contact us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i id="menu_burger" class="fa fa-bars"></i>
+                </a>
+              </div>
+     
+         
+        <div class="main_img">
+   <img class="cake-img" src="main_cake.jpg" alt="">
+</div>
+<div class="second-container">
+      <div class="first_body_title"> 
+       <div class="main-title">
+        <h3 id="first-title">Super Crispy</h3>
+        <h1 id="main-text">Cakezone</h1>
+        <h2 id="first-title">The best cake in JA</h2>
+       </div>
+       <div class="button">
+      
+        
+        <button class="readmore-button">Read more</button>
+    
+    <div class="button2">
+        <button class="play-video-button">
+           <a class="button_href" href=""> <img class="play" src="play.png" alt=""> </a>
+        </button>
+        <span id="aboutus" class="play-p">Play Video</span>
+       </div>
+    
+    </div>
+       
+  </div>
+ 
+
+
+  </div>
+</div>
+
+<div class="second-page">
+    <div class="about-us">
+    <h3  class="menu">About us</h3>
+    <h1 class="aboutus-title">Welcome to Cakezone</h1>
+   </div>
+   <div class="second-block">
+    <div class="second-img">
+    <img class="img2" src="small-cake.png" alt="">
+   </div>
+   <div class="second-block_title">
+  <div class="co-main_title">
+   <span class="title">Tempor erat elitr rebum clita. Diam dolor diam ipsum erat lorem sed stet labore lorem sit clita duo</span>
+    <br>
+    <br>
+        <span class="text2">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet magna</span>
+   </div>
+
+   <div class="flexbox">
+   <div class="third_icon">
+    <img class="second-block_icon" src="first-aid-kit.png" alt="">
+    <p class="health_info"><h3 class="second_h3">100% HEALTHY</h3>
+        Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+        </div> 
+        <div class="fourth_icon">
+        <img class="second-block_icon" src="award.png" alt="">
+        <p class="award_info"><h3 class="second_h3">AWARD WINNING</h3>
+            Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna dolor vero</p>
+         </div>
+       </div>
+      </div> 
+
+     </div>
+    </div>
+    <div class="third_page" id="blur">
+        
+        <div class="background_image">
+            <div class="wrapper">
+                <div class="container">
+                    <img class="static_icon" src="time-twenty-four.png" alt="">
+                  <span class="num" data-val="400">000</span>
+                  <span class="text">Meals Delivered</span>
+                </div>
+                <div class="container">
+                  <img class="static_icon" src="smile-beam.png" alt="">
+                  <span class="num" data-val="340">000</span>
+                  <span class="text">Happy Customers</span>
+                </div>
+                <div class="container">
+                    <img class="static_icon" src="apps-add.png" alt="">
+                  <span class="num" data-val="225">000</span>
+                  <span class="text">Menu Items</span>
+                </div>
+                <div class="container">
+                    <img class="static_icon" src="star.png" alt="">
+                  <span class="num" data-val="280">000</span>
+                  <span class="text">Five Stars</span>
+                </div>
+              </div>
+        </div>
+        <div class="menu_title">
+        <h3 id="menu_pricing" class="menu">Menu & Pricing</h3>
+        <h1 class="explore_our">EXPLORE OUR CAKES</h1>
+    </div>
+    <div class="changing_button">
+
+        <a class="href_birthday" href="#"><button class="three_button">BIRTHDAY</button></a>
+      <a onclick="toggle()" href="#section3"><button class="three_button">WEDDING </button></a> 
+     <a onclick="toggleClass()" class="href_birthday"><button class="three_button">CUSTOM</button></a> 
+     </div>
+
+     
+
+
+
+
+     
+
+
+
+
+
+
+
+     <script>
+        function toggle(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+        function toggleClass(){
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup1 = document.getElementById('popup1');
+            popup1.classList.toggle('active');
+
+        }
+
+
+
+                function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+
+     </script>
+ 
+   
+
+
+
+
+
+
+
+
+
+    <div class="main_birthday_block">
+        <div class="first_block">
+    <div class="birthday_block">
+        <div class="cake_photo">
+            <img class="little_cakes" src="little cakes.jpg" alt="">
+            <p class="price">$99.00</p>
+        </div>
+   
+    <div class="cake_description">
+        <h3 class="description_header">BIRTHDAY CAKE</h3>
+        <p class="description_title">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+        </p>
+    </div>
+ </div>
+ 
+    
+ <div class="birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes.jpg" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">BIRTHDAY CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+</div>
+</div>
+<div class="birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes.jpg" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">BIRTHDAY CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+</div>
+</div>
+</div>
+<div class="two-block">
+<div class="second_birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes.jpg" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">BIRTHDAY CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+     </div>
+     </div>
+
+     <div class="second_birthday_block">
+        <div class="cake_photo">
+            <img class="little_cakes" src="little cakes.jpg" alt="">
+            <p class="price">$99.00</p>
+        </div>
+    
+    <div class="cake_description">
+        <h3 class="description_header">BIRTHDAY CAKE</h3>
+        <p class="description_title">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+        </p>
+         </div>
+         </div>
+         <div class="second_birthday_block">
+            <div class="cake_photo">
+                <img class="little_cakes" src="little cakes.jpg" alt="">
+                <p class="price">$99.00</p>
+            </div>
+        
+        <div class="cake_description">
+            <h3 class="description_header">BIRTHDAY CAKE</h3>
+            <p class="description_title">
+                Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+            </p>
+             </div>
+             </div>
+        </div>
+  </div>
+  <div class="information_cake">
+    <div class="more_info">
+        <h3 class="description_head">BIRTHDAY CAKE</h3>
+        <p class="description_text">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum
+        </p>
+        <a href="" class="read_more">READ MORE &#8594;</a>
+
+    </div>
+    <div class="more_info">
+        <h3 class="description_head">WEDDING CAKE</h3>
+        <p class="description_text">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum
+        </p>
+        <a href="" class="read_more">READ MORE &#8594;</a>
+
+    </div>
+    <div class="more_info">
+        <h3 class="description_head">CUSTOM CAKE</h3>
+        <p class="description_text">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo amet tempor amet kasd lorem dolor ipsum. 
+        </p>
+        <a href="" class="read_more">READ MORE &#8594;</a>
+
+    </div>
+  </div>
+  <div class="background_image2">
+
+  
+  <div class="discount">
+    
+  <h1 class="percent">30%</h1>  <h1 class="skidka"> DISCOUNT FOR THIS SUMMER
+    </h1>
+    <a href="https://codepen.io/gradar/pen/BaavLLo"><button id="teammembers" class="order_now">Order now</button></a>
+
+  </div>
+</div>
+</div>
+    <div class="fourth_page">
+        <div class="menu_title">
+            <h3 class="menu">Team Members</h3>
+        <h1 class="explore_our">OUR MASTER CHEFS</h1>
+    </div>
+    <div id="slideshow">
+        <div class="slide-wrapper">
+          <div class="slide">
+            <div class="chef_info">
+                <img class="img_chef" src="team-2.jpg" alt="">
+                <div class="info">
+            <p class="name">FULL NAME</p><p class="profession">Designation</p>
+              </div>
+            </div>
+            <div class="logo">
+                <a id="media_logo" href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a id="media_logo" href="#" class="fa fa-whatsapp"></a>
+            </div>
+        </div>
+          <div class="slide">
+            <div class="chef_info">
+                <img class="img_chef" src="team-2.jpg" alt="">
+                <div class="info">
+            <p class="name">FULL NAME</p><p class="profession">Designation</p>
+              </div>
+            </div>
+        <div class="logo">
+            <a id="media_logo" href="#" class="fa fa-facebook"></a>
+            <a id="media_logo" href="#" class="fa fa-instagram"></a>
+                <a id="media_logo" href="#" class="fa fa-whatsapp"></a>
+        </div>
+        </div>
+          <div class="slide">
+            <div class="chef_info">
+                <img class="img_chef" src="team-2.jpg" alt="">
+                <div class="info">
+            <p class="name">FULL NAME</p><p class="profession">Designation</p>
+              </div>
+            </div>
+        <div class="logo">
+            <a id="media_logo" href="#" class="fa fa-facebook"></a>
+            <a id="media_logo" href="#" class="fa fa-instagram"></a>
+                <a id="media_logo" href="#" class="fa fa-whatsapp"></a>
+        </div>
+        </div>
+          <div class="slide">
+            <div class="chef_info">
+                <img class="img_chef" src="team-2.jpg" alt="">
+                <div class="info">
+            <p class="name">FULL NAME</p><p class="profession">Designation</p>
+            </div>
+        </div>
+        <div class="logo">
+            <a id="media_logo" href="#" class="fa fa-facebook"></a>
+            <a id="media_logo" href="#" class="fa fa-instagram"></a>
+                <a id="media_logo" href="#" class="fa fa-whatsapp"></a>
+
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="fifth_page">
+      <div class="background_image3">
+        <div class="background_title">
+           <div class="crispy_title">
+        <h3 class="kombo_pack">Special Kombo Pack</h3>
+    
+        <h1 class="crispy_cakes">SUPER CRISPY CAKES</h1>
+        <p class="fourth_title">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
+        <div class="two_button">
+        <button class="first_button">Shop now</button>
+        <button class="second_button">Read more</button>
+    </div>
+    </div>
+      </div>
+        </div>
+     
+     <div class="customer_members">
+     <div class="clients_block">
+        <h3 class="team">Team Members</h3>
+     </div>
+     <h1 id="clients">OUR CLIENTS SAY!!!</h1>
+   
+</div>
+
+
+
+
+  <div class="slideshow-container">
+  
+    <div class="mySlides fade">
+      
+      <div class="customer_info">
+      <img class="customer_photo" src="customer.jpg" >
+      <div class="customer_text">
+      <p class="fullname">CLIENT NAME</p>
+      <p class="client_profession">Profession</p>
+    </div>
+      <div class="text">Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea.</div></div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    
+    <div class="mySlides fade">
+    
+        <div class="customer_info">
+            <img class="customer_photo" src="customer 2.avif" >
+            <div class="customer_text">
+            <p class="fullname">CLIENT NAME</p>
+            <p class="client_profession">Profession</p>
+          </div>
+            <div class="text">Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea.</div></div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="customer_info">
+            <img class="customer_photo" src="customer 3.avif" >
+            <div class="customer_text">
+            <p class="fullname">CLIENT NAME</p>
+            <p class="client_profession">Profession</p>
+          </div>
+            <div class="text">Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea.</div></div>
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+      <script>
+      let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue += 1;
+    valueDisplay.textContent = startValue;
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+});
+</script>
+</div>
+  
+  
+  <footer>
+    <div class="mini_footer">
+    <div class="addres">
+        <p id="getintouch" class="addres_info">GET IN TOUCH</p>
+        <img class="icon_last" src="marker.png" alt="">
+        <span id="span_last">Toktogul str. 12, Jalal-Abad KGZ</span><br>
+        <img class="icon_last" src="paper-plane.png" alt="">
+        <span id="span_last">mail@domain.com</span> <br>
+        <img class="icon_last" src="phone-call.png" alt="">
+        <span id="span_last">+996 770 29 12 66</span>
+
+    
+    <div class="apps">
+        
+            <a id="app" href="#" class="fa fa-facebook"></a>
+            <a id="app" href="#" class="fa fa-instagram"></a>
+            <a id="app" href="#" class="fa fa-whatsapp"></a>
+        
+    </div>
+</div>
+<div class="links">
+    <a class="last_links"   href="#home">&rarr; &#160 HOME</a>
+    <a  class="last_links"  href="#aboutus">&rarr; &#160 ABOUT US</a>
+    <a  class="last_links"  href="">&rarr; &#160 OUR SERVICES</a>
+    <a  class="last_links"  href="">&rarr; &#160 CONTACT US</a>
+    <a  class="last_links"  href="#menu_pricing">&rarr; &#160 MENU PRICING</a>
+</div>
+<div class="news_letter">
+    <p class="addres_info">NEWSLETTER</p>
+    <span class="span_last">Amet justo diam dolor <br> rebum lorem sit stet sea <br>justo kasd</span>
+    <form action="get">
+        <input placeholder="EMAIL" type="email">
+        <button class="submit">submit</button>
+    </form>
+</div>
+</div>
+  </footer>
+
+
+
+
+
+
+<div id="myModal" class="modal">
+  <div class="main_birthday_block_popup" id="popup">
+
+
+    
+
+        <!-- Modal content -->
+        
+          <span class="close">&times;</span>
+          
+       
+      
+      
+
+
+    <div class="first_block_popup">
+<div class="birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes 2.jpg" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">BIRTHDAY CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+</div>
+</div>
+
+
+<div class="birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 2.jpg" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">BIRTHDAY CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+</div>
+</div>
+<div class="birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 2.jpg" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">BIRTHDAY CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+</div>
+</div>
+
+</div>
+<div class="two-block_popup">
+<div class="second_birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 2.jpg" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">BIRTHDAY CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+ </div>
+ </div>
+
+ <div class="second_birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes 2.jpg" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">BIRTHDAY CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+     </div>
+     </div>
+     <div class="second_birthday_block">
+        <div class="cake_photo">
+            <img class="little_cakes" src="little cakes 2.jpg" alt="">
+            <p class="price">$99.00</p>
+        </div>
+    
+    <div class="cake_description">
+        <h3 class="description_header">BIRTHDAY CAKE</h3>
+        <p class="description_title">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+        </p>
+         </div>
+         </div>
+         
+    </div>
+    
+   <a onclick="toggle( )" href="#section3"> <button class="button_popup">Close</button></a>
+</div>
+</div>
+
+
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+<div id="myModal" class="modal">
+<div class="main_birthday_block_popup" id="popup1">
+
+
+
+    
+
+       
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          
+        </div>
+      
+      
+
+
+    <div class="first_block_popup">
+<div class="birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes 3.png" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">CUSTOM CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+</div>
+</div>
+
+
+<div class="birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 3.png" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">CUSTOM CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+</div>
+</div>
+<div class="birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 3.png" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">CUSTOM CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+</div>
+</div>
+
+</div>
+<div class="two-block_popup">
+<div class="second_birthday_block">
+<div class="cake_photo">
+    <img class="little_cakes" src="little cakes 3.png" alt="">
+    <p class="price">$99.00</p>
+</div>
+
+<div class="cake_description">
+<h3 class="description_header">CUSTOM CAKE</h3>
+<p class="description_title">
+    Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+</p>
+ </div>
+ </div>
+
+ <div class="second_birthday_block">
+    <div class="cake_photo">
+        <img class="little_cakes" src="little cakes 3.png" alt="">
+        <p class="price">$99.00</p>
+    </div>
+
+<div class="cake_description">
+    <h3 class="description_header">CUSTOM CAKE</h3>
+    <p class="description_title">
+        Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+    </p>
+     </div>
+     </div>
+     <div class="second_birthday_block">
+        <div class="cake_photo">
+            <img class="little_cakes" src="little cakes 3.png" alt="">
+            <p class="price">$99.00</p>
+        </div>
+    
+    <div class="cake_description">
+        <h3 class="description_header">CUSTOM CAKE</h3>
+        <p class="description_title">
+            Ipsum ipsum clita erat amet dolor sit justo sea eirmod diam stet sit justo
+        </p>
+         </div>
+         </div>
+         
+    </div>
+    <div class="popup_button">
+    <a onclick="toggleClass()" href="#section3"> <button class="button_popup">Close</button></a>
+</div>
+   
+</div>
+
+
+  </div> </div>
+    </div>
+</body>
+</html>
